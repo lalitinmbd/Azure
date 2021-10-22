@@ -16,7 +16,13 @@
 				"userProperties": [],
 				"typeProperties": {
 					"url": "http://dummy.restapiexample.com/api/v1/employees",
-					"method": "GET"
+					"method": "GET",
+					"linkedServices": [
+						{
+							"referenceName": "SqlServer1",
+							"type": "LinkedServiceReference"
+						}
+					]
 				}
 			}
 		],
